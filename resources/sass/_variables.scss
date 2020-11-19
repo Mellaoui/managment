@@ -1,0 +1,197 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$fblue:#2441FC;
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$orange:#f6b21b;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$orange:#ff9933;
+
+.blue{
+    color:$blue;
+}
+.red{
+    color: $red;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+.col-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+mb-1, .my-1 {
+    margin-bottom: .25rem!important;
+}
+.h6, h6 {
+    font-size: 1rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Lato,sans-serif;
+    font-weight: 700;
+    line-height: 1.43;
+    letter-spacing: .01em;
+    margin-top: 1.42857rem;
+    margin-bottom: 1.42857rem;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+.text-primary {
+    color: #2441FC!important;
+}
+
+.table {
+    border-color: #fff;
+    border-radius: 0;
+    color: inherit;
+    width: 100%;
+}
+
+.table.table-hover tbody tr {
+    background: none;
+    color: inherit;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border: 0;
+}
+
+.table tr {
+    -webkit-transition: background .2s ease-in-out,border .2s ease-in-out,box-shadow .2s ease-in-out,color .2s ease-in-out;
+    transition: background .2s ease-in-out,border .2s ease-in-out,box-shadow .2s ease-in-out,color .2s ease-in-out;
+    will-change: background,border,box-shadow,color;
+    width: 100%;
+}
+
+.table tr td:first-child, .table tr th:first-child {
+    padding-left: 1.42857rem;
+}
+
+.table tr th {
+    background: rgba(31,32,34,.1);
+    position: relative;
+}
+.table tr td:first-child, .table tr th:first-child {
+    padding-left: 1.42857rem;
+}
+
+.table tr td {
+    background: hsla(0,0%,92.2%,.3);
+    border: 0;
+    border-bottom: 2px solid #fff;
+    padding: .71429rem;
+    vertical-align: middle;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.modal {
+    z-index: 9999;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+}
+.modal-content {
+    background: #fff;
+    border: 0;
+    -webkit-box-direction: normal;
+    border-radius: 6px;
+    pointer-events: auto;
+    box-shadow: 0 18px 24px rgba(0,0,0,.12);
+}
+.modal-content .modal-header {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    display: -webkit-box;
+    display: flex;
+    margin: 0;
+    padding: 1.42857rem 1.07143rem;
+}
+.modal-footer {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+}
+.btn {
+    -webkit-box-align: center;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    box-shadow: 0 18px 24px rgba(0,0,0,.12);
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    font-family: Lato,sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    -webkit-box-pack: center;
+    justify-content: center;
+    line-height: 1.42857;
+    outline: none;
+    padding: calc(.71429rem - .5px) 1.42857rem;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    -webkit-transition: background .2s ease-in-out,border .2s ease-in-out,box-shadow .2s ease-in-out,color .2s ease-in-out,opacity .2s ease-in-out;
+    transition: background .2s ease-in-out,border .2s ease-in-out,box-shadow .2s ease-in-out,color .2s ease-in-out,opacity .2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    will-change: background,border,box-shadow,color,opacity;
+    -webkit-appearance: none;
+}
+.btn-info {
+    color: #212529;
+    background-color: #64b5f6;
+    border-color: #64b5f6;
+}
+
+.btn.btn-square.btn-sm {
+    min-width: 2.5rem;
+}
